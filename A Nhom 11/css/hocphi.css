@@ -211,3 +211,10 @@ section  {
 .sec-3.show-animate .animate .col .bank-right {
     transform: translateX(0);
 }
+
+
+@media (max-width:1000px) {
+    .card-d {
+        width: 100%;
+    }
+}

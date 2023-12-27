@@ -194,3 +194,23 @@ section.show-animate .animate {
 .sec-5.show-animate .animate {
     transform: scale(1);
 }
+
+.row-card {
+    display: grid;
+    grid-template-columns: repeat(auto-fill , minmax(400px,1fr));
+    gap: 1rem;
+}
+
+.row-fix {
+    display: flex;
+}
+
+
+@media (max-width: 1000px) {
+    .tick{
+        flex-direction: column;
+    }
+    .row-fix {
+        flex-direction: column;
+    }
+}

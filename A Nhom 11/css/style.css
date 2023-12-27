@@ -156,10 +156,14 @@ nav ul li {
     align-items: center;
 }
 
-#carousel img{
-    margin-left: 350px;
-    width: 600px;
-}
+/* #carousel img{
+    margin-left: 300px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    object-fit: cover;
+} */
 
 #main-7 {
     background:#09204c;
@@ -298,4 +302,9 @@ body {
 
 
 
-
+@media(max-width:1000px) {
+    #carousel img{
+        width: 100%;
+        
+    }
+}
