@@ -203,3 +203,6 @@ section.show-animate .animate {
     margin: 0 auto;
 }
 
+html {
+    scroll-behavior: smooth;
+}

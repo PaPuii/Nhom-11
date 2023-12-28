@@ -206,3 +206,7 @@ section.show-animate .animate {
 .sec-5.show-animate .animate {
     transform: scale(1);
 }
+
+html {
+    scroll-behavior: smooth;
+}

@@ -214,3 +214,8 @@ section.show-animate .animate {
         flex-direction: column;
     }
 }
+
+
+html {
+    scroll-behavior: smooth;
+}

@@ -186,3 +186,7 @@ section  {
 .sec-2.show-animate .animate {
     transform: translateX(0);
 }
+
+html {
+    scroll-behavior: smooth;
+}

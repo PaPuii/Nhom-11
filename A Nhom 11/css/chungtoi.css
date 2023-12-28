@@ -178,3 +178,8 @@ section.show-animate .animate-1 {
 body {
     overflow-x: hidden;
 }
+
+
+html {
+    scroll-behavior: smooth;
+}
