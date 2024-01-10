@@ -213,9 +213,14 @@ section.show-animate .animate {
     .row-fix {
         flex-direction: column;
     }
+    .row {
+        flex-direction: column;
+    }
+
 }
 
 
 html {
     scroll-behavior: smooth;
 }
+

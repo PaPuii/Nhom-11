@@ -217,6 +217,10 @@ section  {
     .card-d {
         width: 100%;
     }
+    .row {
+        flex-direction: column;
+    }
+
 }
 
 html {

@@ -139,6 +139,21 @@ section.show-animate .animate {
     .dangnhop{
         flex-direction: column;
     }
+    .box-description{
+        flex-direction: column;
+    }
+    #dangnhop  {
+        width: 100%;
+        flex-direction: column;
+    }
+    #dangnhop button {
+        width: 100px;
+        padding: 10px 20px;
+        margin-top: 30px;
+    }
+    #Right{
+        flex-direction: row;
+    }
 }
 
 html {

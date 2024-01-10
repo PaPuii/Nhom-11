@@ -296,9 +296,7 @@ section  {
     transform: scale(1);
 }
 
-body {
-    overflow-x: hidden;
-}
+
 
 
 
@@ -306,6 +304,12 @@ body {
     #carousel img{
         width: 100%;
         
+    }
+    .row {
+        flex-direction: column;
+    }
+    #botton-dg{
+        margin-left: 80px;
     }
 }
 html {

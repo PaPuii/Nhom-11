@@ -210,3 +210,10 @@ section.show-animate .animate {
 html {
     scroll-behavior: smooth;
 }
+
+@media(max-width:1000px) {
+    .row {
+        flex-direction: column;
+    }
+
+}

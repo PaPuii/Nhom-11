@@ -45,7 +45,7 @@ header {
 }
 
 
-.img-1 {
+.img-1 img {
     width: 100%;
     vertical-align: middle;
     height: 300px;
@@ -182,4 +182,12 @@ body {
 
 html {
     scroll-behavior: smooth;
+}
+
+
+@media(max-width:1000px) {
+    .row {
+        flex-direction: column;
+    }
+
 }
