@@ -70,9 +70,9 @@ i {
 
 
 
-.Hero-1 p , div   {
+/* .Hero-1 p , div   {
     font-size: 25px;
-}
+} */
 
 .Hero-1 p {
     padding: 20px 30px;
@@ -93,6 +93,10 @@ i {
     justify-content: space-between;
     align-items: center;
     padding: 40px 0;
+}
+
+.H-2 , .Hero-1{
+    font-size: 25px;
 }
 
 @media(max-width:1000px){

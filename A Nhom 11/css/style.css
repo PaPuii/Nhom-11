@@ -156,17 +156,16 @@ nav ul li {
     align-items: center;
 }
 
-/* #carousel img{
-    margin-left: 300px;
-    width: 100%;
+.carousel-inner img{
     align-items: center;
     text-align: center;
-    justify-content: center;
-    object-fit: cover;
-} */
+    margin-left: 27%;
+    width: 100%;
+}
 
 #main-7 {
     background:#09204c;
+    height: 100vh;
 }
 
 

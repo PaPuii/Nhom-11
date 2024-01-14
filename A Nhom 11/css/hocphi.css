@@ -1,3 +1,9 @@
+:root{
+    --primary-color:#303366;
+    --secondary-color:red;
+    --modal-delay:1s;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -31,9 +37,9 @@ body {
     padding-top: 4rem;
 }
 
-.text {
-    display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(400px,1fr));
+.text-1 {
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 
@@ -217,12 +223,16 @@ section  {
     .card-d {
         width: 100%;
     }
-    .row {
+    .row , .container-btn , .text-1{
         flex-direction: column;
     }
+
+
 
 }
 
 html {
     scroll-behavior: smooth;
 }
+
+
