@@ -160,3 +160,10 @@ section.show-animate .animate {
 html {
     scroll-behavior: smooth;
 }
+
+
+.form-group select{
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+}
