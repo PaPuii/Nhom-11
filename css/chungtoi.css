@@ -46,9 +46,9 @@ header {
 
 
 .img-1 img {
-    width: 100%;
+    width:100%;
     vertical-align: middle;
-    height: 300px;
+    
     max-width: 100%;
     height: auto;
     overflow-clip-margin: content-box;
